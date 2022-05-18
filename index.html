@@ -6,10 +6,41 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<header>
+    <h1>Rock paper scissors lizard spock</h1>
+    <p>Welcome to rock paper scissors lizard spock!</p>
+    <p>Click the button to choose your option, then click to generate pc's option, and press  the last button to see who won!</p>
+</header>
 
+<div class="rules">
+    <h3 class="legend">Rules of rock paper scissors lizard spock</h3>
+    <img src="images/rules.png" alt="rules" width="400" height="400">
+</div>
 
+<div class="signs">
+    <div class="signplayer">
+        <p>Your choice: <span id="signplayer"> </span></p>
+        <img src="" alt="" id="imgplayer">
+    </div>
+    <p id="vs">VS</p>
+    <div class="signpc">
+        <p>Computers choice: <span id="signpc"> </span></p>
+        <img src="" alt="" id="imgpc">
+    </div>
+</div>
+<div class="buttons" id="buttons">
+    <button id="rock">Rock</button>
+    <button id="paper">Paper</button>
+    <button id="scissors">Scissors</button>
+    <button id="lizard">Lizard</button>
+    <button id="spock">Spock</button>
+    <button id="generate">computers choice</button>
+    <button id="win">Who has won?</button>
+</div>
 
-
+<div class="result">
+    <p id="result"></p>
+</div>
 <script src="js/main.js"></script>
 </body>
 </html>
