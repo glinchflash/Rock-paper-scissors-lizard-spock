@@ -1,9 +1,4 @@
 //variable list
-/*
-const optionArr = ["rock","paper","scissors","lizard","spock"];
-const imgArr = ["images/rock.jpg","images/paper.png","images/scissor.jpg","images/lizard.jpg","images/spock.png"];
-*/
-
 let playersOption;
 let computerOption;
 
@@ -11,8 +6,6 @@ let computerOption;
 
 //ask users name
 let playerName = prompt("Please enter your name"); //DON'T FORGET TO ENABLE AGAIN!
-
-// display users name on screen in players id
 
 
 // viewing your choice
@@ -84,4 +77,14 @@ function winning() {
     else{
         document.getElementById('result').innerHTML = "Computer WINS!"
     }
+}
+
+
+//reset game
+document.getElementById('reset').addEventListener('click', reset);
+
+function reset() {
+    document.getElementById('result').innerHTML = "";
+    document.getElementById('imgplayer').src = "";
+    document.getElementById('imgpc').src = "";
 }
