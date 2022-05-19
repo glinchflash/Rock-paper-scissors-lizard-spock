@@ -38,6 +38,7 @@ button:hover {
 }
 
 .signs {
+  display: flex;
   color: red;
   font-size: large;
 }
