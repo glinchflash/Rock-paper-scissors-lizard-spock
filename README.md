@@ -1,4 +1,4 @@
-Title: Rock paper scissors lizard Spock
+## Title: Rock paper scissors lizard Spock
 
 To play the game: [click here](https://glinchflash.github.io/Rock-paper-scissors-lizard-spock/)
 
