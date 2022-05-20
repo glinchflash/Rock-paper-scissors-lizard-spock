@@ -62,11 +62,11 @@ To play the game: [click here](https://glinchflash.github.io/Rock-paper-scissors
    - [x] work on layout
    - [x] add images to show players choice instead of plain text
    - [x] added rules section
-2. Let the player input using a text field []
-3. Show what the player picked by highlighting the correct button[]
+2. Let the player input using a text field [ ]
+3. Show what the player picked by highlighting the correct button[ ]
     * -[x] Decided to use images instead of highlighting button
-4. Add even more options (but avoid 100 if statements) []
-5. Add complex rules []
+4. Add even more options (but avoid 100 if statements) [ ] 
+5. Add complex rules  [ ]
 ---
 
 #### Personal ideas
