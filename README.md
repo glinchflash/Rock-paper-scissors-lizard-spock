@@ -3,6 +3,10 @@
 To play the game: [click here](https://glinchflash.github.io/Rock-paper-scissors-lizard-spock/)
 
 ---
+### preview
+
+![Preview of the game](C:\Users\glenn\Desktop\becode\mygithub\Rock-paper-scissors-lizard-spock\images/rps.png)
+
 ### Rules
 
 * Scissors cut Paper
