@@ -50,13 +50,13 @@ document.getElementById('generate').addEventListener('click', () => {
     }else {
         document.getElementById('imgpc').src = "images/spock.png";
     }
+    declareWinner()
 } )
 
 
 //calculate winner
-document.getElementById('win').addEventListener('click', winning);
 
-function winning() {
+function declareWinner() {
     if (playersOption === computerOption){
         document.getElementById('result').innerHTML = "DRAW!"
     }else if(computerOption === 0 && playersOption === 1 || computerOption === 0 && playersOption === 4){
